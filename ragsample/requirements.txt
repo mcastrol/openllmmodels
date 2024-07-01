@@ -1,0 +1,9 @@
+unstructured
+langchain-openai
+langchain_community
+pillow_heif
+python-dotenv
+qdrant-client
+sentence-transformers
+pytesseract
+unstructured[pdf]
