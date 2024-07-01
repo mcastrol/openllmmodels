@@ -1,3 +1,5 @@
 qadoc/data
 qdrant_storage/
 chroma_storage/
+**.env**
+**secrets.toml**
