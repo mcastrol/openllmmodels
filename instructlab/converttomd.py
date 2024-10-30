@@ -4,7 +4,7 @@ from markdownify import markdownify as md
 def fetch_and_save_wikipedia_page(page_title, file_name):
     # Initialize the Wikipedia API with user-agent
     user_agent = "OpenllmModel (https://github.com/mcastrol/openllmmodels)"
-    wiki_api = wikipediaapi.Wikipedia(language='en', user_agent=user_agent)
+    wiki_api = wikipediaapi.Wikipedia(language='es', user_agent=user_agent)
     
     # Fetch the page
     page = wiki_api.page(page_title)
@@ -25,4 +25,5 @@ def fetch_and_save_wikipedia_page(page_title, file_name):
     print(f"Markdown content saved to '{file_name}'.")
 
 # Example usage
-fetch_and_save_wikipedia_page("Python (programming language)", "Python_programming_language.md")
+#fetch_and_save_wikipedia_page("Python (programming language)", "Python_programming_language.md")
+fetch_and_save_wikipedia_page("Río_Gallegos", "Río_Gallegos.md")
